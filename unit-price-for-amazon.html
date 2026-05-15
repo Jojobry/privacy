@@ -3,216 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Unit Price for Amazon</title>
+  <title>Privacy Policy — Unitify for Amazon</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      background: #f9f9f9;
-      color: #1a1a1a;
-      line-height: 1.75;
-      padding: 40px 16px 80px;
-    }
-
-    .card {
-      max-width: 680px;
-      margin: 0 auto;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,.08);
-      padding: 48px 56px;
-    }
-
-    @media (max-width: 600px) {
-      .card { padding: 32px 24px; }
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #f0fdf4;
-      border: 1px solid #86efac;
-      color: #166534;
-      border-radius: 999px;
-      padding: 4px 12px;
-      font-size: .8rem;
-      font-weight: 600;
-      letter-spacing: .02em;
-      margin-bottom: 24px;
-    }
-
-    h1 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #111;
-      margin-bottom: 6px;
-    }
-
-    .subtitle {
-      color: #555;
-      font-size: .95rem;
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #111;
-      margin: 36px 0 10px;
-    }
-
-    p, li { font-size: .95rem; color: #333; }
-
-    ul {
-      padding-left: 20px;
-      margin-top: 6px;
-    }
-
-    li { margin-bottom: 4px; }
-
-    .highlight {
-      background: #f0fdf4;
-      border-left: 3px solid #22c55e;
-      border-radius: 0 8px 8px 0;
-      padding: 14px 18px;
-      margin: 16px 0;
-    }
-
-    .highlight p { color: #166534; font-weight: 500; }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-      font-size: .9rem;
-    }
-
-    th {
-      text-align: left;
-      background: #f3f4f6;
-      padding: 8px 12px;
-      font-weight: 600;
-      color: #555;
-    }
-
-    td { padding: 8px 12px; border-bottom: 1px solid #e5e7eb; }
-
-    a { color: #2563eb; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    .footer {
-      margin-top: 40px;
-      padding-top: 24px;
-      border-top: 1px solid #e5e7eb;
-      font-size: .85rem;
-      color: #888;
-    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+           max-width: 680px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+    h1   { font-size: 1.5rem; }
+    h2   { font-size: 1.1rem; margin-top: 2em; }
   </style>
 </head>
 <body>
-  <div class="card">
+  <h1>Privacy Policy — Unitify for Amazon</h1>
+  <p><em>Last updated: May 2026</em></p>
 
-    <div class="badge">
-      <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-        <circle cx="5" cy="5" r="5" fill="#22c55e"/>
-      </svg>
-      No data collected
-    </div>
+  <h2>What this extension does</h2>
+  <p>
+    Unitify for Amazon reads Amazon search result pages in your browser and displays
+    unit prices (price per kg, liter, count, etc.) as overlays on product cards and in
+    a side panel. All processing happens locally on your device.
+  </p>
 
-    <h1>Privacy Policy</h1>
-    <p class="subtitle">Unit Price for Amazon · Chrome Extension · Last updated May 2026</p>
+  <h2>Data we collect</h2>
+  <p><strong>None.</strong> This extension does not collect, transmit, store externally, or sell any personal data or browsing history.</p>
 
-    <div class="highlight">
-      <p>This extension does not collect, transmit, or store any personal data. Everything runs locally on your device.</p>
-    </div>
+  <h2>Local storage</h2>
+  <p>
+    The extension stores the following data <strong>only on your device</strong> using
+    Chrome's local storage API:
+  </p>
+  <ul>
+    <li>Your display preferences (theme, density, sort order) — so they persist between sessions</li>
+    <li>A temporary search cache (last 30 minutes) — so the panel loads instantly when you reopen it</li>
+  </ul>
+  <p>This data never leaves your device and can be cleared at any time from Chrome's extension settings.</p>
 
-    <h2>What the extension does</h2>
-    <p>
-      Unit Price for Amazon reads Amazon search result pages that you already have open in
-      your browser. It calculates and displays a unit price (per kg, liter, count, etc.) on
-      each product card, and shows a sortable comparison list in Chrome's side panel.
-      All of this happens entirely on your device — no data ever leaves your browser.
-    </p>
+  <h2>Network requests</h2>
+  <p>
+    This extension makes <strong>no network requests</strong> of its own. It only reads
+    pages you already have open in your browser. No data is sent to any server.
+  </p>
 
-    <h2>Data we collect</h2>
-    <p><strong>None.</strong> We do not collect:</p>
-    <ul>
-      <li>Your name, email address, or any account information</li>
-      <li>Your browsing history or search queries</li>
-      <li>Which products you view or click</li>
-      <li>Your location or device information</li>
-      <li>Any usage analytics or crash reports</li>
-    </ul>
+  <h2>Permissions</h2>
+  <p>The extension requests only the minimum permissions required:</p>
+  <ul>
+    <li><strong>activeTab</strong> — to read the current Amazon search page</li>
+    <li><strong>storage</strong> — to save your preferences locally</li>
+    <li><strong>sidePanel</strong> — to display the comparison panel</li>
+    <li><strong>tabs</strong> — to detect when you navigate to a new page</li>
+    <li><strong>Amazon domains</strong> — so the content script can run on Amazon pages</li>
+  </ul>
 
-    <h2>Local storage (on your device only)</h2>
-    <p>The extension saves two things <strong>only on your own device</strong>, never on any server:</p>
-    <ul>
-      <li><strong>Your preferences</strong> — theme (light/dark), view density, sort order — so they persist between sessions</li>
-      <li><strong>A short-lived search cache</strong> — the last set of products seen, kept for 30 minutes so the panel loads instantly when you reopen it</li>
-    </ul>
-    <p style="margin-top:10px">You can clear this data at any time: <code>chrome://extensions</code> → Unit Price → Details → Clear storage.</p>
+  <h2>Third parties</h2>
+  <p>No data is shared with any third party. The extension has no ads, no analytics, no telemetry.</p>
 
-    <h2>Network requests</h2>
-    <p>
-      This extension makes <strong>zero network requests</strong> of its own.
-      It reads only pages that your browser has already loaded from Amazon.
-      No information is sent to any server, including ours.
-    </p>
+  <h2>Open source</h2>
+  <p>
+    The full source code is available at
+    <a href="https://github.com/jojobry/amazon-unit-price-extension">github.com/jojobry/amazon-unit-price-extension</a>.
+    You can verify exactly what the extension does.
+  </p>
 
-    <h2>Permissions explained</h2>
-    <table>
-      <thead>
-        <tr><th>Permission</th><th>Why it's needed</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><code>activeTab</code></td><td>Read the current Amazon search page to extract product cards</td></tr>
-        <tr><td><code>storage</code></td><td>Save your preferences and the 30-minute search cache locally</td></tr>
-        <tr><td><code>sidePanel</code></td><td>Display the comparison panel in Chrome's built-in side panel</td></tr>
-        <tr><td><code>tabs</code></td><td>Detect page navigation so the panel refreshes when you go to a new search</td></tr>
-        <tr><td>Amazon domains</td><td>The content script must run on Amazon pages to read the product list</td></tr>
-      </tbody>
-    </table>
-
-    <h2>Third parties</h2>
-    <p>
-      No data is shared with any third party. The extension has no ads, no analytics
-      (no Google Analytics, no Mixpanel, no similar tools), and no affiliate tracking
-      that involves transmitting your data.
-    </p>
-
-    <h2>Children's privacy</h2>
-    <p>
-      This extension does not knowingly collect any data from anyone, including children
-      under 13. Since no data is collected at all, there is nothing to apply special rules to.
-    </p>
-
-    <h2>Changes to this policy</h2>
-    <p>
-      If we ever change this policy in a meaningful way, we will update the "Last updated"
-      date at the top of this page and note the change in the extension's version changelog.
-    </p>
-
-    <h2>Open source</h2>
-    <p>
-      This extension is open source. You can inspect exactly what it does at
-      <a href="https://github.com/Jojobry/amazon-unit-price-extension" target="_blank">
-        github.com/Jojobry/amazon-unit-price-extension
-      </a>.
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-      Questions? Open an issue on
-      <a href="https://github.com/Jojobry/amazon-unit-price-extension/issues" target="_blank">GitHub</a>
-      or reach out through the Chrome Web Store listing page.
-    </p>
-
-    <div class="footer">
-      Unit Price for Amazon is a free, personal project. It is not affiliated with or endorsed by Amazon.
-    </div>
-
-  </div>
+  <h2>Contact</h2>
+  <p>If you have any questions, open an issue on GitHub or contact us through the Chrome Web Store listing.</p>
 </body>
 </html>
